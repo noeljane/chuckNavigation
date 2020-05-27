@@ -2,12 +2,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background: black;
-  border-radius: 50%;
-  overflow: hidden;
 }
 
 .navigation {
-  border-radius: 50%;
-  /* grid-row: auto / span 1;
-  grid-column: auto / span 1; */
+  opacity: 1;
+  transition: opacity 1s;
+  text-align: center;
+}
+
+.fade {
+  background: yellow;
+  opacity: 0;
+  transition: opacity 10s;
 }
