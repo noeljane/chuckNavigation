@@ -1,4 +1,13 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background: black;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.navigation {
+  border-radius: 50%;
+  /* grid-row: auto / span 1;
+  grid-column: auto / span 1; */
 }
